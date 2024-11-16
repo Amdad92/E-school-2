@@ -81,10 +81,10 @@ li {
 }
 
 /* states */
-.btn:hover{
-    background-color: var(--btn-hover-bg-color);
-    cursor: pointer;
-    box-shadow: var(--btn-box-shadow);
+.btn:hover {
+  background-color: var(--btn-hover-bg-color);
+  cursor: pointer;
+  box-shadow: var(--btn-box-shadow);
 }
 
 /* ****navbar section start here**** */
@@ -141,38 +141,68 @@ li {
 
 /* hero section start */
 
-main{
-    background-image: linear-gradient(to top right,#3d86fa,#4484fb,#679eff,#b3d2ff,#ebf3fe);
+main {
+  position: relative;
+  background-image: linear-gradient(
+    to top right,
+    #3d86fa,
+    #4484fb,
+    #679eff,
+    #b3d2ff,
+    #ebf3fe
+  );
 }
 
-.section-hero--image img{
-    width: 100%;
-    height: auto;
+.section-hero--image img {
+  width: 100%;
+  height: auto;
 }
-.section-hero .grid{
-    align-items: center;
-    gap: 6.4rem;
-    
-    & .hero-subheading{
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        font-size: 1.7rem;
-        word-spacing: 0.2rem;
-       color: var(--hero-heading-color);
-       font-weight: 700;
-    }
+.section-hero .grid {
+  align-items: center;
+  gap: 6.4rem;
 
-    & .hero-heading{
-        font-size: 5.8rem;
-        font-family: "Jost";
-        color: var(--hero-heading-color);
-        font-weight: 900;
-        line-height: 1.15;
-    }
-    & .hero-para{
-        color: var(--white-color);
-        margin: 2rem 0 4.2rem 0;
-    }
+  & .hero-subheading {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.7rem;
+    word-spacing: 0.2rem;
+    color: var(--hero-heading-color);
+    font-weight: 700;
+  }
+
+  & .hero-heading {
+    font-size: 5.8rem;
+    font-family: "Jost";
+    color: var(--hero-heading-color);
+    font-weight: 900;
+    line-height: 1.15;
+  }
+  & .hero-para {
+    color: var(--white-color);
+    margin: 2rem 0 4.2rem 0;
+  }
+}
+
+/* shape divider */
+.custom-shape-divider-bottom-1731762910 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1731762910 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1731762910 .shape-fill {
+  fill: #FFFFFF;
 }
 
 /* hero section end */
