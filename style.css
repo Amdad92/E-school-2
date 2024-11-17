@@ -42,7 +42,7 @@ li {
 /* Theme */
 :root {
   --main-color: #0062ff;
-  --supporting-color: #ebf3fe;
+  --supporting-color: #87a7d8;
   --font-color: #424242;
   --bg-color: #ffffff;
   --heading-color: #000a19;
@@ -66,8 +66,27 @@ li {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-three--cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
 /* module/reusable */
 
+.section-common-heading{
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.text{
+    text-transform: lowercase;
+}
+.section-common-subheading{
+    color: var(--heading-color);
+}
+.section-common--title{
+    font-size: 2rem;
+    margin: 2.4rem 0 1.21rem 0;
+}
 .btn {
   display: inline-block;
   padding: 1.2rem 3.2rem;
@@ -204,5 +223,35 @@ main {
 .custom-shape-divider-bottom-1731762910 .shape-fill {
   fill: #FFFFFF;
 }
-
 /* hero section end */
+
+
+/* About section */
+.grid{
+    gap: 6.4rem;
+}
+.section-about .about-div{
+    text-align: center;
+}
+
+.section-about .about-div img {
+    padding: 2.4rem;
+    background-color: var(--supporting-color);
+    width: 15rem;
+    height: auto;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.icon:hover img {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
