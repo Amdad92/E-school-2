@@ -310,5 +310,29 @@ background-color:rgb(68, 60, 63)
 
 /* Course section end here */
 
+/*Why choose section start here  */
+.common-text--highlight{
+  width: 6rem;
+  aspect-ratio: 1;
+  background-color: var(--supporting-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+}
+.section-why--choose .text-align--right .why-choose--div{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: end;
+ text-align: right;
+}
 
+
+/*Why choose section end here  */
 
