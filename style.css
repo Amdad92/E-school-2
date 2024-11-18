@@ -307,6 +307,14 @@ background-color:rgb(112, 106, 108)
   color: #9c9fa5;
 background-color:rgb(68, 60, 63)
 }
+.course-div:nth-child(7) .icon .fa-solid{
+  color: #6b6e72;
+background-color:rgb(29, 26, 28)
+}
+.course-div:nth-child(8) .icon .fa-solid{
+  color: #1c2d42;
+background-color:rgb(105, 102, 104)
+}
 
 /* Course section end here */
 
@@ -331,8 +339,14 @@ background-color:rgb(68, 60, 63)
  justify-content: start;
  align-items: end;
  text-align: right;
+ 
 }
-
+.section-why--choose .grid{
+  gap: 7.6rem;
+}
+.choose-center--div img{
+ width: 90%;
+}
 
 /*Why choose section end here  */
 
